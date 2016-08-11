@@ -21,14 +21,14 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        
+
         <!-- Search Bar -->
         <div class="searchbox" style="margin-top: 10px; float:right;">
             <input type="text" id="searchquery" size="30" placeholder="Search...">
             <input type="submit" class="searchbutton" value="Search" onClick="searchforNav()">
         </div>
          <!-- End of Search Bar -->
-         
+
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
@@ -67,6 +67,9 @@
 
 {% endblock %}
 
+<div id="tab">
+</div>
+
 
 
 <script>window.jQuery || document.write('<script src="{{ static('js/vendors/jquery.min.js') }}"><\/script>')</script>
@@ -103,7 +106,6 @@
 <script src="{{ static('js/vendors/bootstrap/bootstrap-tab.js') }}"></script>
 <script src="{{ static('js/vendors/bootstrap/bootstrap.min.js') }}"></script>
 <!--angular lib and entry point -->
-<script src="{{ static('js/vendors/angular/angular.min.js') }}"></script>
 <script src="{{ static('js/index.js') }}"></script>
 <footer class="navbar-default navbar-fixed-bottom">
     <div class="container-fluid">
